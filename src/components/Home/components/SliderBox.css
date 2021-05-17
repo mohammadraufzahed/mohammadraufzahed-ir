@@ -1,0 +1,7 @@
+#SliderBox {
+  background: url("../../../static/images/SliderBoxBackground.jpg") no-repeat;
+  height: 60vh;
+}
+#SliderBox > div > div.has-text- > span {
+  padding-bottom: -100px !important;
+}
