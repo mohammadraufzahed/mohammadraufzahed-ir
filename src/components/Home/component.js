@@ -1,5 +1,6 @@
 import React from "react";
 import SliderBox from "./components/SliderBox/SliderBox";
+import SkillsBox from "./components/SkillsBox/SkillsBox";
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
             name="Mohammad Raufzahed"
             about="a junior Backend programmer"
           />
+          <SkillsBox />
         </div>
       </div>
     </div>
