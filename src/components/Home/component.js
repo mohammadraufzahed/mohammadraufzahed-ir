@@ -1,5 +1,5 @@
 import React from "react";
-import SliderBox from "./components/SliderBox";
+import SliderBox from "./components/SliderBox/SliderBox";
 
 const Home = () => {
   return (
