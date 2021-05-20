@@ -8,7 +8,10 @@ const Home = () => {
       {/* SliderBox */}
       <div className="columns is-centered">
         <div className="column is-7">
-          <SliderBox />
+          <SliderBox
+            name="Mohammad Raufzahed"
+            about="a junior Backend programmer"
+          />
         </div>
       </div>
     </div>
