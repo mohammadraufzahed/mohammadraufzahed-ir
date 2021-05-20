@@ -3,7 +3,7 @@ import SliderBox from "./components/SliderBox/SliderBox";
 import SkillsBox from "./components/SkillsBox/SkillsBox";
 import PortfoliosBox from "./components/PortfoliosBox/PortfoliosBox";
 import AboutMe from "./components/AboutMe/AboutMe";
-
+import ContactMe from "./components/ContactMe/ContactMe";
 const Home = () => {
   const [skillsObj] = useState([
     {
@@ -63,6 +63,7 @@ const Home = () => {
           <SkillsBox SkillsObject={skillsObj} />
           <PortfoliosBox PortfoliosObj={portfoliosObj} />
           <AboutMe />
+          <ContactMe />
         </div>
       </div>
     </div>
