@@ -2,6 +2,7 @@ import { React, useState } from "react";
 import SliderBox from "./components/SliderBox/SliderBox";
 import SkillsBox from "./components/SkillsBox/SkillsBox";
 import PortfoliosBox from "./components/PortfoliosBox/PortfoliosBox";
+import AboutMe from "./components/AboutMe/AboutMe";
 
 const Home = () => {
   const [skillsObj] = useState([
@@ -61,6 +62,7 @@ const Home = () => {
           />
           <SkillsBox SkillsObject={skillsObj} />
           <PortfoliosBox PortfoliosObj={portfoliosObj} />
+          <AboutMe />
         </div>
       </div>
     </div>
