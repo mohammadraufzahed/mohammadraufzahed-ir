@@ -1,6 +1,7 @@
 import { React, useState } from "react";
 import SliderBox from "./components/SliderBox/SliderBox";
 import SkillsBox from "./components/SkillsBox/SkillsBox";
+import PortfoliosBox from "./components/PortfoliosBox/PortfoliosBox";
 
 const Home = () => {
   const [skillsObj] = useState([
@@ -23,6 +24,31 @@ const Home = () => {
       fontAwesomeIcon: "fab fa-linux",
     },
   ]);
+  const [portfoliosObj] = useState([
+    {
+      title: "PHP Blog",
+      description: "a simple blog writed in php to test my skills",
+      langs: ["PHP", "CSS"],
+      githubUrl: "https://github.com/mohammadraufzahed/php-blog",
+      websiteUrl: "#",
+    },
+    {
+      title: "react-random-user-generator",
+      description: "A simple user generator that is written with React",
+      langs: ["HTML", "JAVASCRIPT", "CSS"],
+      githubUrl:
+        "https://github.com/mohammadraufzahed/react-random-user-generator",
+      websiteUrl: "#",
+    },
+    {
+      title: "password_generator_py",
+      description: "A Simple password generator is written with python",
+      langs: ["PYTHON"],
+      githubUrl:
+        "https://github.com/mohammadraufzahed/react-random-user-generator",
+      websiteUrl: "#",
+    },
+  ]);
   return (
     //   Home component
     <div>
@@ -34,6 +60,7 @@ const Home = () => {
             about="a junior Backend programmer"
           />
           <SkillsBox SkillsObject={skillsObj} />
+          <PortfoliosBox PortfoliosObj={portfoliosObj} />
         </div>
       </div>
     </div>
