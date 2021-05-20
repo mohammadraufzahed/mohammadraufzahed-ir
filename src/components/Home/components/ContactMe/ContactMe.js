@@ -2,7 +2,7 @@ import React from "react";
 
 const ContactMe = () => {
   return (
-    <div className="container mt-6">
+    <div className="container mt-6 box">
       <form action="#" method="POST">
         <div class="title is-2">Contact Me</div>
         <div className="field is-horizontal">
