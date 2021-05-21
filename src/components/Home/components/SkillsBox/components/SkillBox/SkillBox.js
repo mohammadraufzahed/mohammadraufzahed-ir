@@ -21,7 +21,7 @@ const SkillBox = ({ skillObj }) => {
     console.log(`${skillObj.title} reminded rate: ${rate}`);
   }
   return (
-    <div className="column is-4">
+    <div className="column is-6">
       <div className="card">
         <div className="card-image pt-3">
           <figure className="image">
