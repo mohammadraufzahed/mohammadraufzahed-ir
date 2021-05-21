@@ -10,7 +10,7 @@ const PortfoliosBox = ({ PortfoliosObj }) => {
       <div id="portfolios-box" className="columns is-multiline mt-3">
         {PortfoliosObj.map((portfolio) => {
           return (
-            <div className="column is-4">
+            <div className="column is-12">
               <div className="card">
                 <div className="card-content">
                   <div className="content">
