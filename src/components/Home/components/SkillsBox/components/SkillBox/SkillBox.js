@@ -18,23 +18,21 @@ const SkillBox = ({ skillObj }) => {
         <span className="fa fa-star" key={i} style={{ color: "grey" }}></span>
       );
     }
-    console.log(`${skillObj.title} reminded rate: ${rate}`);
   }
   return (
-    <div className="column is-6">
+    <div className="col-lg-4 p-3">
       <div className="card">
-        <div className="card-image pt-3">
-          <figure className="image">
-            <i className={skillObj.fontAwesomeIcon + " fa-5x"}></i>
-          </figure>
+        <div className="card-image-top pt-3">
+          <i
+            style={{ color: skillObj.color }}
+            className={skillObj.fontAwesomeIcon + " fa-5x"}
+          ></i>
         </div>
         <hr />
-        <h3 className=" has-text-centered is-size-4 is-bold">
-          {skillObj.title}
-        </h3>
-        <div className="stars pt-2">{stars}</div>
-        <div className="card-content pb-4">
-          <div className="content">{skillObj.description}</div>
+        <h3 className="h3 fw-bold card-title">{skillObj.title}</h3>
+        <div className="stars fs-5">{stars}</div>
+        <div className="card-text fw-normal pb-4 pt-3">
+          {skillObj.description}
         </div>
       </div>
     </div>

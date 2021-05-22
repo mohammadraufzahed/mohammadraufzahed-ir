@@ -4,14 +4,12 @@ const SliderBox = ({ name, about }) => {
   return (
     <div
       id="SliderBox"
-      className=" columns is-vcentered box has-text-centered mt-5"
+      className="text-center text-white shadow bg-dark rounded mt-3"
     >
-      <div className="column is-12">
-        {/* title */}
-        <h1 className="title is-size-1 has-text-white">{name}</h1>
-        {/* Subtitle */}
-        <h2 className="subtitle is-size-4 has-text-white">{about}</h2>
-      </div>
+      {/* title */}
+      <h1 className="fs-1 title pt-4">{name}</h1>
+      {/* Subtitle */}
+      <h2 className="fs-5 pb-3">{about}</h2>
     </div>
   );
 };

@@ -7,7 +7,7 @@ const App = () => {
     // Routers
     <Router>
       {/* Main Container */}
-      <div className="container is-fluid">
+      <div className="container-fluid">
         {/* Route the component Home */}
 
         <Switch>
