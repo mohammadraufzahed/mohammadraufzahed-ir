@@ -12,7 +12,6 @@ const SkillBox = ({ skillObj }) => {
           key={i}
         ></span>
       );
-      continue;
     } else {
       stars.push(
         <span className="fa fa-star" key={i} style={{ color: "grey" }}></span>
